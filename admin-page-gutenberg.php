@@ -102,3 +102,10 @@ function page_init_admin_page_gutenberg() {
 }
 add_action( 'admin_init', 'page_init_admin_page_gutenberg', 30);
 add_action( 'rest_api_init', 'page_init_admin_page_gutenberg');
+
+
+function show_options_admin_page_gutenberg(){
+    $admin_page_guttenberg_fields = get_option( 'admin_page_guttenberg_fields' );
+    print_r($admin_page_guttenberg_fields);
+}
+add_action( 'wp_head', 'show_options_admin_page_gutenberg');
