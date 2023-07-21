@@ -1,0 +1,33 @@
+{
+  "name": "admin-page-gutenberg",
+  "version": "1.0.0",
+  "description": "Plugin Admin Page Gutenberg",
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "repository": "git+https://github.com/arraycodess/admin-page-gutenberg.git",
+  "bugs": {
+    "url": "https://github.com/arraycodess/admin-page-gutenberg/issues"
+  },
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "format:js": "wp-scripts format-js",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:md:docs": "wp-scripts lint-md-docs",
+    "lint:md:js": "wp-scripts lint-md-js",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^26.8.0"
+  },
+  "dependencies": {
+    "@wordpress/element": "^5.14.0"
+  }
+}

@@ -1,0 +1,10 @@
+composer.lock
+.idea
+/vendor
+package-lock.json
+/node_modules/
+/dist
+build
+build-module
+build-style
+languages/*
